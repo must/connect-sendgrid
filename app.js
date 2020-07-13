@@ -28,7 +28,7 @@ platform
      * run the test instance on port 4000.
      *
      */
-    port: 4000,
+    port: process.env.CONNECT_PORT ? parseInt(process.env.CONNECT_PORT) : 4000,
 
     /**
      *

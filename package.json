@@ -1,7 +1,7 @@
 {
-  "name": "connect-platform-package-boilerplate",
-  "version": "1.0.0",
-  "description": "the boilerplate project for CONNECT platform packages.",
+  "name": "connect-sendgrid",
+  "version": "0.0.1",
+  "description": "The CONNECT platform sendgrid package.",
   "main": ".",
   "scripts": {
     "start": "nodemon app.js",
@@ -9,19 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loreanvictor/connect-platform-package-boilerplate.git"
+    "url": "git+https://github.com/must/connect-sendgrid.git"
   },
   "author": "Eugene Ghanizadeh Khoub <ghanizadeh.eugene@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loreanvictor/connect-platform-package-boilerplate/issues"
+    "url": "https://github.com/must/connect-sendgrid/issues"
   },
-  "homepage": "https://github.com/loreanvictor/connect-platform-package-boilerplate#readme",
+  "homepage": "https://github.com/must/connect-sendgrid#readme",
   "peerDependencies": {
     "connect-platform": "*"
   },
   "devDependencies": {
-    "connect-platform": "^0.3.8",
+    "connect-platform": "^0.3.9",
     "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.1"
   }
 }
